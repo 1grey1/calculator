@@ -23,7 +23,7 @@ function calc() {
         const stringDivision = Number(number1 / number2);
         return alert('Ответ: ' + stringDivision);
     } else if (operator === '/' && number2 === '0') {
-        return 'Ошибка в вычислении';
+        return alert('Ошибка в вычислении');
     }
 }
 
